@@ -44,9 +44,6 @@ Hardened BGP and routing behavior to meet enterprise security standards
 
 Delivered cost-optimized, automated routing without manual UDR maintenance
 
-🚀 How to Use (Sample IaC Coming Soon)
-Coming soon: Bicep/Terraform templates to deploy ARS + NVA + Firewall + UDRs with peer config.
-
 📚 Resources
 Azure Route Server Docs: https://learn.microsoft.com/en-us/azure/route-server/overview
 
