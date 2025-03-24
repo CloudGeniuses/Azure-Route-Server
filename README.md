@@ -21,3 +21,37 @@ Document real-world troubleshooting for Azure Route Server deployments
 
 <img width="542" alt="image" src="https://github.com/user-attachments/assets/f82de745-6762-474a-8063-9aa84c7e888b" />
 
+What Was Implemented & Fixed
+✅ Initial Setup
+Deployed ARS into a dedicated subnet (RouteServerSubnet)
+
+Configured peering with SD-WAN/NVA (BGP ASN, peer IPs)
+
+Verified route advertisement and propagation to/from ARS
+
+🪛 Troubleshooting & Fixes
+
+<img width="545" alt="image" src="https://github.com/user-attachments/assets/5fa73d71-f6cc-4ed8-9cb7-1ae6434b3ab0" />
+
+📈 Outcome
+Achieved dynamic, resilient routing between on-premises and Azure
+
+Improved route convergence time during failover
+
+Enabled centralized inspection via Azure Firewall without losing routing flexibility
+
+Hardened BGP and routing behavior to meet enterprise security standards
+
+Delivered cost-optimized, automated routing without manual UDR maintenance
+
+🚀 How to Use (Sample IaC Coming Soon)
+Coming soon: Bicep/Terraform templates to deploy ARS + NVA + Firewall + UDRs with peer config.
+
+📚 Resources
+Azure Route Server Docs: https://learn.microsoft.com/en-us/azure/route-server/overview
+
+💬 Contact
+Isaac Emeteveke
+Cloud Architect • Azure Specialist & Security Specialist
+
+
